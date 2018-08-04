@@ -1,8 +1,8 @@
 {
   "development": {
-    "database":"newsport_database_dev",
+    "database":"booksdb",
     "username":"root",
-    "password":"123456",
+    "password":"root",
     "writeConnection" : {
       "host": "127.0.0.1",
       "port": 3306,

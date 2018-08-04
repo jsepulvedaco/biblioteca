@@ -43,7 +43,7 @@ module.exports = function (sequelize, DataTypes) {
       field: 'is_active'
     }
   }, {
-    tableName: 'sys_managers',
+    tableName: 'managers',
     freezeTableName: true,
     classMethods: {
       associate: function (models) {

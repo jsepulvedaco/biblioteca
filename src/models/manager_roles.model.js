@@ -23,7 +23,7 @@ module.exports = function (sequelize, DataTypes) {
       field: 'role_id'
     }
   }, {
-    tableName: 'sys_manager_roles',
+    tableName: 'manager_roles',
     freezeTableName: true,
     classMethods: {
       associate: function (models) {

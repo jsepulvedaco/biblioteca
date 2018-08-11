@@ -9,7 +9,7 @@ router.use(function (req, res, next) {
 })
 
 // defined api list
-router.use('/managers', require('./managers'))
+router.use('/v1/book', require('./book'));
 // ...
 
 module.exports = router
